@@ -1,0 +1,33 @@
+{
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "vanilla"
+    },
+    {
+      "id": 2,
+      "name": "chocolate"
+    },
+    {
+      "name": "mint",
+      "id": 3
+    }
+  ],
+  "ice_creams": [
+    {
+      "id": 1,
+      "name": "new york fudge",
+      "ingredients": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "name": "chuncky monkey",
+      "ingredients": [
+        1,
+        2
+      ]
+    }
+  ]
+}
