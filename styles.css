@@ -1,77 +1,43 @@
-body {
-  margin: 0;
-  padding: 0;
+
+
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
 }
 
-.header {
-  background-image: url("icecream.jpeg");
-  height: 50px;
+
+
+
+
+
+.iceCreamContainer {
+  /* width: 100px;
+  background-color: rgb(239, 239, 239);
+  margin: 5px;
+  overflow: auto; */
+  width: 100px;
+  margin: 0px;
 }
 
-#title {
-  background-color: rgb(66, 134, 244);
-  color: white;
-  text-align: center;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   font-weight: 300;
-  font-size: 2em;
+#iceCreamCreator {
+  /* width: 100px; */
+  border: 3px solid #73AD21;
+  /* margin: 0px; */
+  /* margin: auto;  */
+  /* padding-top: 10px;
+  padding-left: 20px; */
+  /* padding-bottom: 20px; */
 }
 
-header h2 {
-  padding: 10px;
-  margin: 0;
+#iceCreamList {
+  /* width: 100px;
+  margin: 0px; */
 }
 
-main {
+/* #iceCreamGrid {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-gap: 20px;
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-
-div.card {
-  background-color: #eeeeee;
-  height: 250px;
-  width: 300px;
-  box-shadow: 10px 10px grey;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-p {
-  font-size: 1.5em;
-  color: black;
-  font-family: Helvetica;
-}
-
-li {
-  font-size: 1.05em;
-  list-style: none;
-  padding-right: 20px;
-}
-
-button {
-  font-size: .65em;
-  color: #fff;
-  background-color: green;
-  border-radius: 10px;
-}
-
-button.release {
-  float: right;
-  background-color: #E1332D;
-}
-
-@media only screen and (min-width: 500px) {
-  main {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media only screen and (min-width: 850px) {
-  main {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+} */

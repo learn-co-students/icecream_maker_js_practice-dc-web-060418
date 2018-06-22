@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
-    <title>Pokemon Teams</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ice Cream Maker</title>
+    <link rel="stylesheet" href="index.css">
   </head>
+
   <body>
-    <div class="header"></div>
-      <div id='title'>
-        <h2>Make An Ice Cream!</h2>
+    <div class="headerBar">
+      <h1>Let's Make Some Ice Cream!</h1>
+    </div>
+
+    <div class="main">
+
+      <div class='iceCreamCreator'>
+        <form id='iceCreamForm'>
+          <label for="iceCreamName" id="nameFlavor">Name Your Flavor:</label>
+          <input id='iceCreamName' type="text" placeholder="ex. rocky road"/>
+          <hr>
+          <h2>Pick your ingredients:</h2>
+
+          <ul id='iceCreamCheckboxes'>
+
+          </ul>
+
+          <hr>
+          <button>Create Ice Cream!</button>
+        </form>
       </div>
-    <div class="header"></div>
 
-    <div>
-      <!-- ice cream creator goes here -->
-    <div>
+      <div class='iceCreamContainer'>
+        <h2>ALL THE ICE CREAMS!</h2>
+          <div id="iceCreamGrid">
 
-    <main>
-      <!-- New Ice Creams Go here -->
-
-      <div class="card" data-id="1"><p>The Flatiron Ice Cream Special</p>
-
-        <ul>
-          <li>Chcolate Fudge<button class="release" data-pokemon-id="140">Remove</button></li>
-          <li>Sprinkles<button class="release" data-pokemon-id="141">Remove</button></li>
-
-        </ul>
-        <button data-trainer-id="1">Delete Ice Cream</button>
+          </div>
+        </div>
       </div>
-    </main>
 
-    <script src="./src/index.js"></script>
+
+
+    </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
