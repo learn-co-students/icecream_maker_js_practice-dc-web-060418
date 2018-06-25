@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
   iceCreamForm.addEventListener('submit', function(event){
     event.preventDefault();
     let newIceCreamName = event.target.children[1].value
-    let ingLiArray = event.target.children[3].children
+    let ingLiArray = event.target.children[4].children
     let checkedIngIdArray = [];
 
     for(let i = 0; i < ingLiArray.length; i++){
@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
         checkedIngIdArray.push(ingLiArray[i].dataset.id)
       }
     }
+    
 
     let options = {
     method: "POST",
@@ -56,8 +57,6 @@ document.addEventListener("DOMContentLoaded", function() {
       iceCreamGrid.innerHTML = generateIceCreamGrid(iceCreamsArray)
 
       iceCreamArray = iceCreamsArray;
-
-
     })
   }
 

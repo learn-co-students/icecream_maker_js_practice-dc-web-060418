@@ -42,35 +42,13 @@
       ]
     },
     {
-      "name": "New Ice Cream",
+      "name": "Best Ice Cream Ever",
       "ingredients": [
         "1",
-        "2"
+        "2",
+        "3"
       ],
       "id": 3
-    },
-    {
-      "name": "new new new icecream",
-      "ingredients": [
-        "3",
-        "4"
-      ],
-      "id": 4
-    },
-    {
-      "name": "",
-      "ingredients": [],
-      "id": 5
-    },
-    {
-      "name": "",
-      "ingredients": [],
-      "id": 6
-    },
-    {
-      "name": "",
-      "ingredients": [],
-      "id": 7
     }
   ]
 }
