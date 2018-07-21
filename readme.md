@@ -41,7 +41,7 @@ POST a single ice cream
 http://localhost:3000/ice_cream
 ```
 ```
-headers: {'Accept': 'application/json', 'Content-Type': 'application/json'},
+headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
 ```
 ```
 body: JSON.stringify({"name": newIceCreamName, "ingredients": [1,2,3]})
@@ -53,8 +53,7 @@ PATCH a single ice cream
 http://localhost:3000/ice_cream/:id
 ```
 ```
-headers:
-{'Accept': 'application/json', 'Content-Type': 'application/json'},
+headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
 ```
 ```
 body: JSON.stringify({"name": newIceCreamName, "ingredients": [1,2,3]})
