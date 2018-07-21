@@ -1,5 +1,5 @@
 {
-  "ingredients": [
+  "ingredient": [
     {
       "id": 1,
       "name": "vanilla"
@@ -25,7 +25,7 @@
       "id": 6
     }
   ],
-  "ice_creams": [
+  "ice_cream": [
     {
       "name": "Rocky Sidewalk",
       "ingredients": [
