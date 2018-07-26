@@ -27,15 +27,18 @@
   ],
   "ice_cream": [
     {
-      "name": "Rocky Sidewalk",
+      "name": "Jo",
       "ingredients": [
-        "1",
-        "2",
-        "3",
-        "5",
-        "6"
+        "1"
       ],
       "id": 1
+    },
+    {
+      "name": "Fun",
+      "ingredients": [
+        "3"
+      ],
+      "id": 2
     }
   ]
 }
